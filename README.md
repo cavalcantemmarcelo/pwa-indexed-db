@@ -1,18 +1,20 @@
+# CRUD User via IndexedDB
 
-## CRUD de usuário via IndexedDB
+## Global Dependencies
 
-## Instalação:
-Para instalar o projeto é necessário ter o Node.js (12.22ˆ)
-Abra o terminal na pasta do projeto e execute o comando:
-> npm install
+Before you can proceed with this project, ensure you have the following dependencies installed:
 
-## Execução
-Depois de instalar as dependências, para executar o projeto é necessário rodar o comando:
-> npm start
+- **Sass:** You need Sass for compiling SCSS files to CSS.
+- **Jest:** Jest is required for running unit tests.
 
-E abrir a URL: [http://localhost:3000](http://localhost:3000) em algum navegador
+## Installation
 
-## Test
-Para rodar testes unitários utilize o comando:
-> npm test
+To set up and install the project, follow these steps:
 
+1. **Node.js:** Make sure you have Node.js installed, preferably version 12.22 or higher. You can download it from the [official Node.js website](https://nodejs.org/).
+
+2. **Clone the Repository:** Open your terminal and navigate to the directory where you want to store the project. Then, clone the repository using the following command:
+
+   ```bash
+   git clone https://github.com/cavalcantemmarcelo/pwa-indexed-db
+   ```

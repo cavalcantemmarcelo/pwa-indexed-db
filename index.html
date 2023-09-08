@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lista de Usuários</title>
+    <title>PWA - Contact List </title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
 <div class="app">
 
     <section class="container">
-        <h1>Criar usuário</h1>
+        <h1>Create new</h1>
         <form onsubmit="userController.create(event)" class="container__create form">
             <div class="form__field">
                 <input type="text" class="form__input form__input-text" id="name" required autocomplete="name" placeholder="Nome completo (sem abreviações)">
@@ -30,19 +30,19 @@
                 <label for="phone">Telefone</label>
             </div>
             <div class="form__submit">
-                <button class="button">Cadastrar</button>
+                <button class="button">Create</button>
             </div>
         </form>
     </section>
 
     <section class="container">
 
-        <h1 class="text-center">Lista Usuários</h1>
+        <h1 class="text-center">Contacts</h1>
         <div id="messageView"></div>
         
         <div class="text-center">
             <button onclick="userController.importUsers(1)" class="button" type="button">
-                Importar Usuários
+                Import Contacts
             </button>
         </div> 
 

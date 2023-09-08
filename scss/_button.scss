@@ -1,0 +1,36 @@
+
+.button {
+    border: 0 none;
+    background-color: $primary-color;
+    border-radius: 2rem;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: bold;
+    display: inline-block;
+    margin: 2rem 0;
+    padding: .5rem 2rem;
+    transition: ease-in-out .1s;
+
+    &--danger {
+        background-color: $erro-color;
+    }
+    
+    &:hover {
+        opacity: .7;
+    }
+    
+    &:disabled {
+        background-color: $disabled-color;
+        color: #f6f6f6;
+    }
+    
+    &.loading {
+    
+    }
+
+    @media (max-width: $smartphone-width){ 
+        width: 100%;
+    }
+
+}
